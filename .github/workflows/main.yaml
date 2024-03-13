@@ -16,4 +16,4 @@ jobs:
     steps:
       - id: echo
         run: |
-          echo "Hello World
+          echo "Hello World"
