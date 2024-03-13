@@ -20,4 +20,6 @@ jobs:
       - name: test sh
         shell: bash
         run: |
+          pwd
+          ls
           /bin/bash build-and-deploy/test.sh
