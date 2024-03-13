@@ -17,3 +17,7 @@ jobs:
       - id: echo
         run: |
           echo "Hello World"
+      - name: test sh
+        shell: bash
+        run: |
+          /bin/bash build-and-deploy/test.sh
