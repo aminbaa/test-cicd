@@ -20,3 +20,4 @@ jobs:
         shell: bash
         run: |
           /bin/bash build-and-deploy/test.sh
+          echo "${aa}"
